@@ -1,0 +1,60 @@
+body {
+  background-color: Ivory;
+  color: Tomato;
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  color: OrangeRed;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+}
+
+h2 {
+  text-align: center;
+  color: OrangeRed;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+table  {
+  background-color: #e0f6ff;
+  margin: 0 auto;
+  width: 550px;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+}
+
+th, td  {
+  border: #00BFFF 1px solid;
+  padding: 5px;
+}
+
+th {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+}
+
+.mono {
+  font-family: monospace;
+  font-weight: 700;
+}
+
+.tag {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.extras {
+  text-align: center;
+}

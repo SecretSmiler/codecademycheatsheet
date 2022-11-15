@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cheatsheet: HTML/CSS</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Cheatsheet: HTML/CSS</h1>
+      </header>
+      <article>
+        <h2>Semantic HTML: Giving meaning, improving accessibility, SEO</h2>
+        <section>
+          <h3>Semantic structure of a web page</h3>
+
+          <!-- Semantic HTML Tags -->
+          <table>
+            <tr>
+              <th>Tag</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;header&gt;</span></td>
+              <td>Header</td>
+              <td>Information about the page, e.g. title</td>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;nav&gt;</span></td>
+              <td>Navigation</td>
+              <td>
+                Navigation links. Often placed within
+                <span class="mono">&lt;header&gt;</span> or
+                <span class="mono">&lt;footer&gt;</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;main&gt;</span></td>
+              <td>Main</td>
+              <td>Main body of content</td>
+            </tr>
+
+            <tr>
+              <td class="tag"><span class="mono">&lt;section&gt;</span></td>
+              <td>Section</td>
+              <td>
+                Thematically linked aspects of a page, for example, Gaming
+                section
+              </td>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;article&gt;</span></td>
+              <td>Article</td>
+              <td>
+                Stand-alone content, using above example, a game review.
+                <br />Other examples: blogs, newsletters
+              </td>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;aside&gt;</span></td>
+              <td>Aside</td>
+              <td>
+                Content that is seperate to the main theme, e.g. advertisements.
+                Enhancement of theme, usually seperate to the main body of text.
+              </td>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;figure&gt;</span></td>
+              <td>Figure</td>
+              <td>An image</td>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;figcaption&gt;</span></td>
+              <td>Figure Caption</td>
+              <td>
+                Caption to describe the image, child to
+                <span class="mono">&lt;figure&gt;</span> - caption stays linked
+                to the image.
+              </td>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;footer&gt;</span></td>
+              <td>Footer</td>
+              <td>E.g. copywrite info.</td>
+            </tr>
+          </table>
+        </section>
+
+        <!-- Media Tags -->
+        <section>
+          <h3>Media Tags</h3>
+          <table>
+            <tr>
+              <th>Tag</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;video&gt;</span></td>
+              <td>Video</td>
+              <td>Used to link video content.</td>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;audio&gt;</span></td>
+              <td>Audio</td>
+              <td>Used to link audio content</td>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;embed&gt;*</span></td>
+              <td>Embed</td>
+              <td>Embeds media such as browser plugins.</td>
+            </tr>
+            <tr>
+              <td class="extras" colspan="3">
+            E.g.
+            <span class="mono"
+              >&lt;video source src="video.mp4" type='video/mp4'&gt; File Not
+              Supported &lt;/video&gt;</span
+            >
+              </td>
+            </tr>
+          </table>
+
+          <!-- Media Tags - Attributes -->
+          <h3>Media Attributes</h3>
+          <table>
+            <tr>
+              <th>Tag</th>
+              <th>Attribute</th>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;video&gt;</span></td>
+              <td rowspan="2">
+                <span class="mono"
+                  >src, type, height, width, controls, loop, autoplay, muted,
+                  title</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;audio&gt;</span></td>
+            </tr>
+            <tr>
+              <td class="tag"><span class="mono">&lt;embed&gt;*</span></td>
+              <td>
+                <span class="mono">src, type, height, width, title</span>
+              </td>
+            </tr>
+          </table>
+          <h5 class="extras">*self closing</h5>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
